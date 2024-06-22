@@ -128,5 +128,5 @@ function retrunSceondvalue(getArray){
     return getArray[1]
 }
 console.log(retrunSceondvalue(myNewArray));
-// 5.05.07
 
+        
