@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #000000;
+            color: #ccc;
+
+        }
+        .container {
+            margin: 20px;
+            padding: 20px;
+            /* border: 1px solid #ccc; */
+        }
+        .btn {
+            padding: 10px 20px;
+            /* background-color: #007bff; */
+            /* color: #fff; */
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            /* background-color: #0056b3; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">DOM Manipulation Example</h1>
+        <p id="demo">This paragraph can be changed by clicking the button below.</p>
+        <button class="btn" onclick="changeText()">Change Text</button>
+    </div>
+
+    <!-- JavaScript to manipulate the DOM -->
+    <script>
+        // Function to change text content
+        function changeText() {
+            var paragraph = document.getElementById('demo');
+            paragraph.textContent = 'Text changed using DOM manipulation!';
+        }
+    </script>
+</body>
+</html>
