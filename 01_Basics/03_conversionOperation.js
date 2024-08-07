@@ -4,7 +4,7 @@ console.log(typeof score);
 let valueinNumber = Number(score); // conversion 
 console.log(typeof valueinNumber);
 
-//   "33 => 33 "
+//   "33 => 33 
 // "33abc => NaN"
 // 
 // true=> 1 ;  false => 0
@@ -68,11 +68,12 @@ num1=num2=num3 = 2+4
 console.log(num1)
 
 // incremental assignment prefix and postfix
-
+// Post-increment (x++): The variable is incremented after its value is used in the expression.
 let x =3
 let y = x++;
 console.log(`x:${x} , y:${y}`);
 
+// Pre-increment (++a): The variable is incremented before its value is used in the expression.
 let a =3
 let b = ++a;
 console.log(`a:${a} , b:${b}`);
